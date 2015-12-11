@@ -12,7 +12,7 @@
 	
 	namespace Lidiun_Framework_v6;
 	
-	Class Redirect
+	Class Redirect_controller
 	{
 		public static $_content;
 

@@ -221,7 +221,7 @@
 		}
 
 		public static function redirect($content){
-			Redirect::$_content = $content;
+			Redirect_controller::$_content = $content;
 			self::setController("Lidiun_Framework_v6\Redirect");
 		}
 
