@@ -1,15 +1,18 @@
 # Lidiun Framework
-Lidiun Framework é um framework diferente de tudo que você já viu!<br><br>
+An open source framework to help developers write code fast!<br>
+The Lidiun 6 was developed on a standard called Segment. 
+Unlike traditional MVC, it allows you to separate the HTML from the PHP Code.<br><br>
 
 ======
-Acesso o site e leia mais: [http://www.lidiun.com.br](http://www.lidiun.com.br)<br>
-Leia a documentação em: [http://www.lidiun.com.br/documentation/](http://www.lidiun.com.br/documentation/)<br>
-Tenha uma visão geral aqui:[http://dyonenedi.github.io/lidiun-framework/](http://dyonenedi.github.io/lidiun-framework/)<br><br>
+Access Lidiun in: [http://www.lidiun.com](http://www.lidiun.com)<br>
+Read documentation in: [http://www.lidiun.com/documentation/](http://www.lidiun.com/documentation/)<br>
 
-# Relacionados
-- Baixe o core do framework (Precisa conhecer o Lidiun): [Clique aqui](https://github.com/dyonenedi/lidiun-framework)<br>
-- Baixe uma aplicação default para o framework (Precisa conhecer o Lidiun): [Clique aqui](https://github.com/dyonenedi/lidiun-app)<br>
-- Baixe plugins para o framework (Precisa conhecer o Lidiun): [Clique aqui](https://github.com/dyonenedi/lidiun-plugin)<br>
-- Baixe um pacote com todas as opções acima (Qualquer desenvolvedor): [Clique aqui](https://github.com/dyonenedi/lidiun-package)<br>
+How to use Lidiun Framework V6
+
+1º Clone Lidiun Framework and download App Clear Or App Exemple.<br>
+2º Read the short documentation here: [http://www.lidiun.com/documentation/](http://www.lidiun.com/documentation/).<br>
+4º You are ready to create an application using Lidiun.<br>
+3º To become master of Lidiun Framework, download App Exemple to understand segments standard.<br>
+
 
 
