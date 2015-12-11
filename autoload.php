@@ -55,6 +55,7 @@
 			    spl_autoload_register(function ($className) {
 				    $className = str_replace('\\', DIRECTORY_SEPARATOR , $className);
 				    $className = str_replace('/', DIRECTORY_SEPARATOR , $className);
+				    $className = strtolower($className);
 
 				    if (!include_once($className . '.php')) {
 				    	throw new \Exception('Is not possible include the follow file: '.$className.'.php');
