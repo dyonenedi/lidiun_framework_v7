@@ -10,7 +10,7 @@
 	*
 	**********************************************************/
 	
-	namespace Lidiun;
+	namespace Lidiun_Framework_v6;
 	
 	class Request
 	{
@@ -222,7 +222,7 @@
 
 		public static function redirect($content){
 			Redirect::$_content = $content;
-			self::setController("Lidiun\Redirect");
+			self::setController("Lidiun_Framework_v6\Redirect");
 		}
 
 		public static function redirectTo($url){

@@ -10,7 +10,7 @@
 	*
 	**********************************************************/
 	
-	namespace Lidiun;
+	namespace Lidiun_Framework_v6;
 
 	class Render
 	{

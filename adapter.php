@@ -11,8 +11,8 @@
 	*
 	**********************************************************/
 
-	use Lidiun\Autoload;
-	use Lidiun\Framework;
+	use Lidiun_Framework_v6\Autoload;
+	use Lidiun_Framework_v6\Framework;
 
 	try {
 		#######################################################################################
@@ -42,7 +42,7 @@
 		############################## Include Autoload and Framework ############################
 		#######################################################################################
 
-		$lidiunPath = PUBLIC_DIRECTORY . SEPARATOR . '..' . SEPARATOR . '..' . SEPARATOR . 'lidiun' . SEPARATOR;
+		$lidiunPath = PUBLIC_DIRECTORY . SEPARATOR . '..' . SEPARATOR . '..' . SEPARATOR . 'lidiun_framework_v6' . SEPARATOR;
 		include_once($lidiunPath . 'autoload.php');
 		include_once($lidiunPath . 'framework.php');
 
