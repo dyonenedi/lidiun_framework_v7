@@ -94,14 +94,14 @@
 					$pathController = Path::$_path['web'];
 				}
 
-				if (file_exists($pathController.self::$_parameter[0].'Controller.php')) {
+				if (file_exists($pathController.self::$_parameter[0].'_controller.php')) {
 					// If exists a controller with first parameter
-					self::$_controller = strtolower(self::$_parameter[0]).'Controller';
+					self::$_controller = strtolower(self::$_parameter[0]);
 					self::unsetParameter(0);
-				} else if (!empty(self::$_parameter[1]) && file_exists($pathController.self::$_parameter[1].'Controller.php')) {
+				} else if (!empty(self::$_parameter[1]) && file_exists($pathController.self::$_parameter[1].'_controller.php')) {
 					// If exists a controller with second parameter	
 					self::$_entity = strtolower(self::$_parameter[0]);
-					self::$_controller = strtolower(self::$_parameter[1]).'Controller';
+					self::$_controller = strtolower(self::$_parameter[1]);
 					self::unsetParameter(0);
 					self::unsetParameter(1);
 				} else {

@@ -31,9 +31,9 @@
 		}
 
 		private static function runGlobalRende(){
-			if (file_exists(Path::$_path['controller'] . 'globalController.php')) {
+			if (file_exists(Path::$_path['controller'] . 'global_controller.php')) {
 				Autoload::includePath('mvc'. SEPARATOR .'controller');
-				$globalController = 'globalController';
+				$globalController = 'global_controller';
 				$globalController = new $globalController;
 				$globalcontroller = null;
 			}
@@ -49,6 +49,7 @@
 
 			Layout::loadContent();
 			$controller = Request::getController();
+			$controller .= '_controller';
 			if (class_exists($controller)) {
 				$app = new $controller;
 			} else {

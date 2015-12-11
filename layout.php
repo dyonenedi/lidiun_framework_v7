@@ -30,7 +30,6 @@
 		public static function loadContent($content=null) {
 			if (empty($content)) {
 				$content = Request::getController();
-				$content = substr($content, 0, strrpos($content, 'Controller'));
 			}		
 			
 			if (file_exists(Path::$_path['content'] . $content . '.html')) {
@@ -115,7 +114,7 @@
 				}
 			}
 
-			$title = (!empty(self::$_title)) ? self::$_title: ucwords(substr(Request::getController() , 0, strrpos(Request::getController(), 'Controller')));
+			$title = (!empty(self::$_title)) ? self::$_title: ucwords(Request::getController());
 			$description = (!empty(self::$_description)) ? self::$_description: Conf::$_conf['preset']['description'];
 
 			$layout = self::getView('layout' . SEPARATOR . 'layout');
