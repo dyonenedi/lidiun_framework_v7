@@ -172,6 +172,17 @@
 		}
 
 		/**
+		* Return database schema
+		*
+		*/
+		static public function getDbName() {
+			self::connect();
+			$dbname = self::$_db['database'];
+			self::close();
+			return $dbname;
+		}
+
+		/**
 		* Return error message DB
 		*
 		*/
