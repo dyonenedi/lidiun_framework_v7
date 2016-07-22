@@ -100,8 +100,7 @@
 				}
 				
 				if ($return == 'array') {
-					self::$_data = array();
-					$j = 0;
+					self::$_data = [];
 					while ($row = self::$_result->fetch_assoc()) {
 						self::$_data[] = $row;
 					}
