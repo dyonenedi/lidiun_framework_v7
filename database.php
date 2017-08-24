@@ -100,8 +100,7 @@
 				}
 				
 				if ($return == 'array') {
-					self::$_data = array();
-					$j = 0;
+					self::$_data = [];
 					while ($row = self::$_result->fetch_assoc()) {
 						self::$_data[] = $row;
 					}
@@ -188,6 +187,17 @@
 		*/
 		static public function getInsertId() {
 			return self::$_insertId;
+		}
+
+		/**
+		* Return database schema
+		*
+		*/
+		static public function getDbName() {
+			self::connect();
+			$dbname = self::$_db['database'];
+			self::close();
+			return $dbname;
 		}
 
 		/**
