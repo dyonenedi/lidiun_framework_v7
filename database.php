@@ -118,7 +118,26 @@
 			} else {
 				self::$_error = true;
 				self::$_errorMessage = self::$_con->error.'<br>'.self::$_sql;
-				
+
+				$error = debug_backtrace();
+				foreach ($error as $key => $value) {
+					if (!empty($value['class']) && $value['class'] == "Lidiun_Framework_v6\Database") {
+						$file = addslashes($value['file']);
+						$line = addslashes($value['line']);
+						$class = addslashes($value['class']);
+						$function = addslashes($value['function']);
+						$query = trim(addslashes($value['args'][0]));
+						$error = trim(addslashes(self::$_con->error));
+
+						try {
+							$query = "INSERT INTO database_error (file, line, class, function, query, error) VALUES('".$file."', '".$line."', '".$class."', '".$function."', '".$query."', '".$error."')";
+							self::$_con->query($query);
+						} catch (Exception $e) {
+							// exit($e->getMessage());
+						}
+					}
+				}
+
 				if (self::$_autoCommit) {
 					self::$_con->rollback();
 				}
