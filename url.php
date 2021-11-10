@@ -11,7 +11,7 @@
 	**********************************************************/
 	
 	namespace Lidiun_Framework_v6;
-	use Lidiun_Framework_v7\Conf;
+	use Lidiun_Framework_v6\Conf;
 	
 	Class Url
 	{	
