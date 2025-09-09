@@ -1,16 +1,30 @@
-# Lidiun Framework
-An open source framework to help developers write code fast!<br>
-The Lidiun 6 was developed on a standard called Segment. 
-Unlike traditional MVC, it allows you to separate the HTML from the PHP Code.<br><br>
+# Lidiun Framework v6
+A PHP Framework light and siple for simple applications.  
+![PHP Version](https://img.shields.io/badge/PHP-7.3-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-======
-Access Lidiun in: [http://www.lidiun.com](http://www.lidiun.com)<br>
-Read documentation in: [http://www.lidiun.com/documentation/](http://www.lidiun.com/documentation/)<br>
+## Version Updates 
+- Created Date: 12/11/2015  
+- Changes from last version: 
+**System become Framework and url tratement was added**.  
+![PHP Version](https://img.shields.io/badge/Lidiun--V5-red) ![=>](https://img.shields.io/badge/%3D%3E-gray) ![PHP Version](https://img.shields.io/badge/Lidiun--V6-green)
 
-How to use Lidiun Framework V6
+## About
+The **Lidiun Framework** is a PHP framework created to 
+help get easy to make php applications. It's has other versions shows it's developing in the past years.  
+![License](https://img.shields.io/badge/Origin-Brazil-green)
 
-1º Clone Lidiun Framework and download App Clear Or App Exemple.<br>
-2º Read the short documentation here: [http://www.lidiun.com/documentation/](http://www.lidiun.com/documentation/).<br>
-4º You are ready to create an application using Lidiun.<br>
-3º To become master of Lidiun Framework, download App Exemple to understand segments standard.<br>
+## Install
+```bash
+git clone https://github.com/dyonenedi/lidiun_framework_v6.git
+cd lidiun-v6
+```
 
+## Owner
+- [Dyon Enedi](https://github.com/dyonenedi)
+
+## Contribuidores
+- Gabriela Ayres
+
+## License
+This project is licensed under the MIT license - see the [LICENSE](LICENSE) file for more details.
