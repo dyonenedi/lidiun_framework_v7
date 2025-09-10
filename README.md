@@ -17,7 +17,7 @@ help get easy to make php applications. It's has other versions shows it's devel
 ## Install
 ```bash
 git clone https://github.com/dyonenedi/lidiun_framework_v7.git
-cd lidiun-v7
+cd lidiun_framework_v7
 ```
 
 ## Owner
@@ -28,4 +28,5 @@ cd lidiun-v7
 
 ## License
 This project is licensed under the MIT license - see the [LICENSE](LICENSE) file for more details.
+
 
